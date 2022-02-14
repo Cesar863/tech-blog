@@ -28,7 +28,7 @@ router.post('/login', (req, res) => {
             username: req.body.username
         }
     })
-}).then(dbUserData => {
+    .then(dbUserData => {
     if (!dbUserData) {
         res.status(400).json({
             message: 'No user with that ID found!'
@@ -55,6 +55,7 @@ router.post('/login', (req, res) => {
             message: 'You are now logged in!'
         });
     });
+});
 });
 
 router.post('/logout', (req, res) => {
