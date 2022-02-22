@@ -1,20 +1,20 @@
-<div>
-    <div>
+<div class="post card border border-danger col-auto">
+    <div class="card-header border border-danger">
         <h2>Edit Post</h2>
     </div>
-    <form id="edit-post-form">
-        <input name="post-id" value="{{post.id}}" />
+    <form id="edit-post-form" class="card-body border border-danger d-flex flex-column">
+        <input type="hidden" name="post-id" value="{{post.id}}" />
 
-        <label for="post-title">Title</label>
-        <input type="text" name="post-title" value="{{post.title}}" />
+        <label class="form-label h4" for="post-title">Title:</label>
+        <input type="text" name="post-title" value="{{post.title}}" class="form-input" />
 
-        <label for="post-body">Article</label>
-        <textarea name="post-body">{{post.body}}</textarea>
+        <label class="form-label h4" for="post-body">Content:</label>
+        <textarea name="post-body" class="form-input">{{post.body}}</textarea>
 
-        <button type="submit">Update</button>
+        <button type="submit" class="btn btn-danger border border-dark m-1">Update</button>
 
-        <button type="button" id="delete-btn">Delete</button>
+        <button type="button" id="delete-btn" class="btn btn-danger border border-dark m-1">Delete</button>
     </form>
 </div>
 
-<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/edit.js"></script>

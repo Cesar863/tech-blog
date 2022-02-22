@@ -1,0 +1,8 @@
+<div class="posts list-group bg-dark">
+    {{#each posts}}
+    <a class="list-item h3 border border-danger rounded-pill border-5 p-2 text-decoration-none text-danger bg-light m-2" href="/dashboard/edit/{{id}}">
+        <span class="text-center display-block">{{title}}</span>
+        <span class="text-center display-block">{{format_date createdAt}}</span>
+    </a>
+    {{/each}}
+</div>

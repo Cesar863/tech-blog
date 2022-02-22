@@ -1,21 +1,21 @@
-<div>
-    <div>
+<div class="card border border-white">
+    <div class="card-header bg-danger border border-white text-dark">
         <h2>Sign Up</h2>
     </div>
-    <div id="signup">
-        <form>
-            <div>
-                <label>Username</label>
-                <input type="text" />
+    <div id="signup" role="tabpanel">
+        <form id="signup-form" class="card-body d-flex justify-content-center flex-column h4">
+            <div class="d-flex flex-column justify-content-center">
+                <label for="username-input-signup">Username</label>
+                <input type="text" id="username-input-signup" />
             </div>
-
-            <div>
-                <label>Password</label>
-                <input type="password"/>
+            <div class="form-label d-flex flex-column">
+                <label for="password-input-signup">Password</label>
+                <input type="password" id="password-input-signup" />
             </div>
-            <button type="submit">Sign Up</button>
-            <a href="/login">Login</a>
+            <button type="submit" id="signup-btn" class="btn btn-danger border border-dark m-1">Signup</button>
+            <a class="btn btn-danger border border-dark m-1" href="/login">Login</a>
         </form>
     </div>
 </div>
+
 <script src="/javascript/signup.js"></script>
