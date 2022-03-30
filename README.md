@@ -1,6 +1,6 @@
 # Tech Talk
 
-### Github: https://github.com/Cesar863/tech-bog
+### Github: https://github.com/Cesar863/tech-blog
 
 ### Deployed: https://cesar-tech-talk.herokuapp.com/
 
