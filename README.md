@@ -48,8 +48,8 @@ A tech blogging website that was created using MVC and handlebars.js. Accounts c
 - node.js
 - JAWSDB
 - Bootstrap
-- JavaScript
 - NODEMON
+- JavaScript
 
 ## Created By: 
 Cesar Martinez 
